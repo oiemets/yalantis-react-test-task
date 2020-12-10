@@ -1,3 +1,9 @@
+# For task info please check 
+
+"Technical task for Yalantis React.js School 3 .pdf"
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
