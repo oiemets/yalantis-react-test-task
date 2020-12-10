@@ -11,7 +11,7 @@ const Employees = ({ error, getEmployees, getSelected }) => {
     useEffect(() => {
         getEmployees();
         getSelected();
-    }, []);
+    }, [getEmployees, getSelected]);
 
     return (
         <>
