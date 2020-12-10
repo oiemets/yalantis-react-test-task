@@ -42,6 +42,7 @@ const Birthday = ({ selected }) => {
                                 }
                             </ul>)
                     }
+                return null
                 })}
             </ul>
         </div>
