@@ -1,0 +1,38 @@
+.container {
+    width: 40%;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.noselected {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgba(255, 60, 60, 0.7);
+    /* color: rgb(22, 165, 0); */
+}
+
+.selected_container {
+    padding: 10px;
+}
+
+.month_title {
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.birthday_group {
+    padding: 10px;
+}
+
+.birthday_user {
+    font-size: 1.1em;
+}

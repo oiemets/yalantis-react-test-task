@@ -1,0 +1,15 @@
+.container {
+    width: 1300px;
+    margin: 50px auto;
+    display: flex;
+    padding: 20px;
+}
+
+.error {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(254, 0, 0, 0.611);
+    height: 50px;
+}

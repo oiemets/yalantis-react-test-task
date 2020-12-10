@@ -1,0 +1,28 @@
+.users {
+    width: 60%;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.users h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.usr_list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.usr_list_inner {
+    width: 33%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.usr_list_inner h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
