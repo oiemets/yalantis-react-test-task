@@ -32,7 +32,7 @@ const Birthday = ({ selected }) => {
                 {months.map((month, i) => { 
                     let grouped = selected.filter(usr => dateToMonthConverter(usr.dob) === month)
                     if(grouped.length > 0) {
-                        return <ul key={i} className={styles.birthday_group}>
+                        return (<ul key={i} className={styles.birthday_group}>
                                 <h3 className={styles.month_title}>{month}</h3>
                                 {grouped.map(user => {
                                     return (<li key={user.id} className={styles.birthday_user}>
@@ -40,12 +40,9 @@ const Birthday = ({ selected }) => {
                                          </li>);
                                     })
                                 }
-                            </ul>
+                            </ul>)
                     }
-                    return
-                })
-                }
-
+                })}
             </ul>
         </div>
     );
