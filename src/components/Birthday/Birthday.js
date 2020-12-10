@@ -35,13 +35,15 @@ const Birthday = ({ selected }) => {
                         return <ul key={i} className={styles.birthday_group}>
                                 <h3 className={styles.month_title}>{month}</h3>
                                 {grouped.map(user => {
-                                    return <li key={user.id} className={styles.birthday_user}>
+                                    return (<li key={user.id} className={styles.birthday_user}>
                                             {user.firstName} {user.lastName} - {dateToStringConverter(user.dob)}
-                                         </li>
+                                         </li>);
                                     })
                                 }
                             </ul>
-                    }})
+                    }
+                    return
+                })
                 }
 
             </ul>
